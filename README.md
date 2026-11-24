@@ -27,7 +27,7 @@ The package was verified with Python 3.10, PyTorch 2.7.0+cu128 and PyTorch Geome
 
 Place the Weather benchmark CSV at `data/weather/weather.csv`. The expected CSV has a `date` column followed by 21 numeric variables. For custom CSV data, supply the number of variables through `--enc_in`, `--dec_in` and `--c_out`. This original data loader uses chronological 70%/10%/20% train/validation/test splits for `custom` data, with normalization fitted on the training split.
 
-The parent [Ada-MSHyper repository](https://github.com/shangzongjiang/Ada-MSHyper) describes benchmark dataset access.
+The [Ada-MSHyper repository](https://github.com/shangzongjiang/Ada-MSHyper) describes how to access the benchmark datasets.
 
 ## Train and evaluate
 
@@ -80,7 +80,3 @@ python run_STHyper1.py --help
 - `exp`: original training, validation and evaluation implementation.
 - `run_STHyper1.py`: original command-line entry point.
 - `scripts/smoke_test.py`: small synthetic forward/backward verification.
-
-## Acknowledgements
-
-The implementation builds on [Ada-MSHyper](https://github.com/shangzongjiang/Ada-MSHyper) and PyTorch Geometric. Original source comments and version notices are preserved.
