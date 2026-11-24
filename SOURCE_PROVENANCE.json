@@ -1,0 +1,134 @@
+{
+  "release": "CMBF basic original manuscript implementation",
+  "packaged_on": "2026-11-24",
+  "source_directory": "/home/xzh/xzh/HGCNN/Ada-MSHyper-main2 -test",
+  "selected_model": "models.EventMSHyperV1.Model",
+  "model_header_version": "v0.6.7 (2025-12-31)",
+  "core_policy": "All listed original files are byte-for-byte copies; no original model, data-loader or training code was modified.",
+  "compatibility_model": "EventMSHyper and e2e_propV1 are retained because the unchanged exp_main imports them. The documented entry point selects EventMSHyperV1.",
+  "excluded": [
+    "datasets",
+    "trained weights",
+    "logs",
+    "experiment outputs",
+    "NNI state",
+    "later sample-prototype, ridge, stable-basis and fast-path extensions"
+  ],
+  "original_files": [
+    {
+      "path": "run_STHyper1.py",
+      "sha256": "f1f9d047b805a7e9d791159215fcf5a0b31c2c91f2eb3415066c3d90fb50b4e1",
+      "bytes": 30506
+    },
+    {
+      "path": "models/EventMSHyperV1.py",
+      "sha256": "5092220e3a43753ed6b3fb196c1aaf44961a4831e3001a91d6d4f9f894fa075b",
+      "bytes": 70196
+    },
+    {
+      "path": "models/EventMSHyper.py",
+      "sha256": "e81452f6ede1d49a809d9bff89d9f767340685f3f90c87bfdea9a219f127b883",
+      "bytes": 97936
+    },
+    {
+      "path": "models/Layers.py",
+      "sha256": "2ac378e6cf2e70e171bced491edf0441bc11a82c8cac8b447b55efe6ffeddb83",
+      "bytes": 31999
+    },
+    {
+      "path": "models/SubLayers.py",
+      "sha256": "4f57f4a904d58480c54aab52908cb2646cbb53139a13f16a09b80c79e7f35c74",
+      "bytes": 3626
+    },
+    {
+      "path": "models/Modules.py",
+      "sha256": "270725b9547e1419808193e760a1b4c42b6e11a4bae4c87ac4dae756a67e469c",
+      "bytes": 9032
+    },
+    {
+      "path": "models/core/utils.py",
+      "sha256": "e527d33b48ee3bbd37cb4c02f5e774dfd054751fa071853836ac9c1848ecaae2",
+      "bytes": 2984
+    },
+    {
+      "path": "models/core/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "models/ops/hypergraph_conv.py",
+      "sha256": "aab0c84a271654d685c7b141cf699bb44b9e66f399cfae5eae5888ef101266ab",
+      "bytes": 10343
+    },
+    {
+      "path": "models/ops/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "models/structure/time_builder.py",
+      "sha256": "646798b21fb62b03720e9102073b0779b2f7b6aacba212de4a81cf427d3d776f",
+      "bytes": 10051
+    },
+    {
+      "path": "models/structure/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "models/e2e/e2e_prop.py",
+      "sha256": "e55d00d3578a7eacc2fd51fb78dbf3de8bf10ee1b17b1c3ca79fb2b08c194153",
+      "bytes": 62414
+    },
+    {
+      "path": "models/e2e/e2e_propV1.py",
+      "sha256": "72fdef2a00b4c1635e47ae3583065aef4b46b645f3202bb6fc788470a0fa536b",
+      "bytes": 41796
+    },
+    {
+      "path": "models/e2e/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "exp/exp_main.py",
+      "sha256": "42a7d39d5da6214519386f60338804740cfdd26b9aaf23ced362c5f98bf840b8",
+      "bytes": 78343
+    },
+    {
+      "path": "exp/exp_basic.py",
+      "sha256": "b50721a6e2717a159d331099382b9b90b39109c7df336dda83bbb3e8f0b10b4d",
+      "bytes": 1145
+    },
+    {
+      "path": "data_provider/data_factory.py",
+      "sha256": "258f013588c32c441aa12b34586e1cda0a5eb7d44cf6c5868197a089985ac190",
+      "bytes": 3911
+    },
+    {
+      "path": "data_provider/data_loader.py",
+      "sha256": "9eddf06ecd01965e6a53ca15cdae7ea47bb5fd22c7e3791ea99328eea8d01b80",
+      "bytes": 24751
+    },
+    {
+      "path": "data_provider/__init__.py",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "bytes": 1
+    },
+    {
+      "path": "utils/tools.py",
+      "sha256": "93a985c4c75e815cca1a865e5ddd754eab15e993c111edec07f0927ad75185bd",
+      "bytes": 7973
+    },
+    {
+      "path": "utils/metrics.py",
+      "sha256": "9d61cbf6239d2749f7640eff9fa80e66a17dbbea1881b919c4375b126195294d",
+      "bytes": 951
+    },
+    {
+      "path": "utils/timefeatures.py",
+      "sha256": "2ad031a425f6f02b88db1918333a30937e41b18f435df90e6bcbb6470427221b",
+      "bytes": 3743
+    }
+  ]
+}

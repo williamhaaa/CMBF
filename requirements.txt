@@ -1,0 +1,10 @@
+# Install a PyTorch build appropriate for your CPU/CUDA before these dependencies.
+# Verified with Python 3.10, torch 2.7.0+cu128 and torch-geometric 2.6.1.
+numpy>=1.24,<3
+pandas>=1.5,<3
+scikit-learn>=1.2,<2
+matplotlib>=3.6,<4
+tensorboard>=2.12,<3
+torch>=2.0,<3
+torch-geometric==2.6.1
+# Optional: nni==3.0 (hyperparameter search), ptflops (FLOP reporting)
